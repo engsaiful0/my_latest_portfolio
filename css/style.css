@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Averia Serif Libre", cursive;
   font-weight: 500;
   line-height: 1.2;
-  color: #141414;
+  color: #ffffff;
 }
 
 h1, .h1 {
@@ -9405,7 +9405,7 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   float: left;
   padding: 30px;
-  background: #ffffff;
+  background: #222222;
 }
 
 .wrapper .sidebar-icon {
@@ -9566,7 +9566,7 @@ h4, h5, h6 {
 
 .typed-cursor {
   font-size: 20px;
-  color: #646464;
+  color: #ffffff;
 }
 
 .back-to-top {
@@ -9707,14 +9707,14 @@ h4, h5, h6 {
 }
 
 .navbar .nav-link {
-  color: #141414;
+  color: #FFFFFF;
   font-weight: 600;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link.active {
-  color: #78CC6D;
-  background: #F2F2F2;
+  color: #ffffff;
+  background: #78CC6D;
   border-radius: 5px;
 }
 
