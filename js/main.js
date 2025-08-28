@@ -2,7 +2,7 @@
     "use strict";
 
     // Smooth scrolling to section
-    $(".btn-scroll").on('click', function (event) {
+    $(".js-scroll-trigger").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             

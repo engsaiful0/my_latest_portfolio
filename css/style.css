@@ -9693,3 +9693,34 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar .nav-item {
+  color: var(--dark);
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.navbar .nav-link {
+  color: #141414;
+  font-weight: 600;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #78CC6D;
+  background: #F2F2F2;
+  border-radius: 5px;
+}
+
+@media (max-width: 767.98px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
