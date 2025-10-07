@@ -126,7 +126,7 @@
                                 @foreach($portfolios as $portfolio)
                                     <tr>
                                         <td>
-                                            <img src="{{ $portfolio->image_url }}" alt="{{ $portfolio->title }}" 
+                                            <img src="{{ asset('public/storage/' . $portfolio->image_path) }}" alt="{{ $portfolio->title }}" 
                                                  class="img-thumbnail" style="width: 60px; height: 60px; object-fit: cover;">
                                         </td>
                                         <td>

@@ -409,9 +409,9 @@
                             @forelse($portfolios as $portfolio)
                                 <div class="col-md-6 mb-4 portfolio-item {{ $portfolio->category }}">
                                     <div class="position-relative overflow-hidden mb-2">
-                                        <img class="img-fluid w-100" src="{{ $portfolio->image_url }}" alt="{{ $portfolio->title }}">
+                                        <img class="img-fluid w-100" src="{{ asset('public/storage/' . $portfolio->image_path) }}" alt="{{ $portfolio->title }}">
                                         <div class="portfolio-btn d-flex align-items-center justify-content-center">
-                                            <a href="{{ $portfolio->image_url }}" data-lightbox="portfolio">
+                                            <a href="{{ asset('public/storage/' . $portfolio->image_path) }}" data-lightbox="portfolio">
                                                 <i class="fa fa-4x fa-plus text-white"></i>
                                             </a>
                                         </div>

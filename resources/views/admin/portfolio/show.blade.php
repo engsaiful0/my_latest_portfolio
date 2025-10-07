@@ -180,14 +180,14 @@
                         <div class="mb-2">
                             <strong>Image URL:</strong>
                             <br><small class="text-muted">
-                                <a href="{{ $portfolio->image_url }}" target="_blank" class="text-decoration-none">
-                                    {{ $portfolio->image_url }}
+                                <a href="{{ asset('public/storage/' . $portfolio->image_path) }}" target="_blank" class="text-decoration-none">
+                                    {{ asset('public/storage/' . $portfolio->image_path) }}
                                 </a>
                             </small>
                         </div>
                         
                         <div class="text-center">
-                            <a href="{{ $portfolio->image_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+                            <a href="{{ asset('public/storage/' . $portfolio->image_path) }}" target="_blank" class="btn btn-sm btn-outline-primary">
                                 <i class="fas fa-download me-1"></i>Download Image
                             </a>
                         </div>
